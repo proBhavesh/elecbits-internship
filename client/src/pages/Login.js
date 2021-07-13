@@ -87,7 +87,7 @@ export default ({
   const loginUser = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/backend/login", {
+    const res = await fetch("/backend/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

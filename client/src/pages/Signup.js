@@ -102,7 +102,7 @@ export default ({
   const PostData = async (e) => {
     e.preventDefault();
     const { name, email, password, cpassword } = user;
-    const res = await fetch("http://localhost:5000/backend/signup", {
+    const res = await fetch("/backend/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
