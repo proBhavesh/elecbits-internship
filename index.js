@@ -10,7 +10,7 @@ const mongoose = require("mongoose");
 const path = require("path");
 const app = express();
 
-//making passwords secure using .env
+//making passwords secure using .envwwwwww
 dotenv.config({ path: "./.env" });
 
 //middlewares
