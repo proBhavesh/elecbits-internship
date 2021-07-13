@@ -162,7 +162,6 @@ const getCourses = async (req, res) => {
 // <-------------------------Module Export ------------------------------------>
 module.exports = {
 	homeHandle,
-	paymentHandle,
 	signupHandle,
 	loginHandle,
 	isSignedIn,
